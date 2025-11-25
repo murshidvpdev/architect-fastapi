@@ -1,2 +1,39 @@
-venv
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Environment ---
+.env
+.env.*
+.venv/
+venv/
+ENV/
+
+# --- FastAPI/SQLAlchemy ---
+*.db
+instance/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- macOS ---
 .DS_Store
+
+# --- Logs ---
+*.log
+
+# --- Bytecode cache ---
+*.so
+
+# --- Cache ---
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# --- Project specific ---
+backend/__pycache__/
+backend/*/__pycache__/
+backend/**/*.pyc
